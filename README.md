@@ -2,7 +2,7 @@
 
 Une application gratuite, en français, pour vivre sans gluten au quotidien : scanner un produit, trouver où manger, cuisiner et suivre tes symptômes. Elle fonctionne sur téléphone et sur ordinateur, sans compte ni inscription.
 
-**👉 [Ouvrir Gluten Spot](https://TON-PSEUDO.github.io/gluten-spot/)**
+**👉 [Ouvrir Gluten Spot](https://maxeldev.github.io/Gluten-Spot/)**
 
 > **À savoir :** Gluten Spot aide à repérer les risques, mais peut se tromper. L'étiquette du produit fait foi, et l'application ne remplace pas un avis médical.
 

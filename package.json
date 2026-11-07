@@ -1,0 +1,15 @@
+{
+  "name": "gluten-spot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Application web (PWA) pour vivre sans gluten au quotidien.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

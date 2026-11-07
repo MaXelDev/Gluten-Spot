@@ -1,0 +1,21 @@
+# Sauvegardes de l'application : elles contiennent des données de santé
+gluten-spot-sauvegarde-*
+
+# Dépendances et journaux
+node_modules/
+*.log
+
+# Secrets locaux
+.env
+.env.*
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+
+# Réglages locaux de Claude Code
+.claude/settings.local.json

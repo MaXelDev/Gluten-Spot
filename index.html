@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gluten Spot</title>
+  <meta name="description" content="Scanner, recettes, carte d'adresses, cartes de restaurant et suivi des symptômes pour vivre sans gluten.">
+  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14201b" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Gluten Spot">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preload" href="vendor/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Navigation principale">
+      <a class="brand" href="#/"><img src="icons/icon.svg" alt="" width="36" height="36"><span>Gluten Spot</span></a>
+      <nav id="side-nav" class="side-nav"></nav>
+    </aside>
+    <div class="content">
+      <header class="topbar">
+        <a class="brand" href="#/"><img src="icons/icon.svg" alt="" width="30" height="30"><span>Gluten Spot</span></a>
+        <a class="icon-button" href="#/reglages" aria-label="Réglages" id="settings-link"></a>
+      </header>
+      <div id="storage-alert" class="notice notice-bad storage-alert" role="alert" hidden></div>
+      <main id="main" tabindex="-1"></main>
+    </div>
+  </div>
+  <nav id="bottom-nav" class="bottom-nav" aria-label="Navigation principale"></nav>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript>Gluten Spot a besoin de JavaScript pour fonctionner.</noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
